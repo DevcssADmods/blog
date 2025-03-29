@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Presentación</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Div para el tema oscuro/claro -->
+        <div class="theme-toggle" onclick="toggleTheme()">☀️</div>
+    </div>
+        
+        <!-- Div para la foto de perfil -->
+        <div class="profile-pic" id="profile-pic">
+            
+            <input type="file" id="upload" accept="image/*" hidden>
+            <label for="upload">
+                <img src="images/IMG-20241223-WA0006.jpg" alt="">
+            </label>
+        </div>
+
+        <!-- Div para el nombre y correo -->
+        <div class="info">
+            <h1 class="input">ANDE DEV
+            <input type="email" id="email" placeholder="andersonvasqlesl7mp23@gmail.com">
+        </div>
+
+        <!-- Div Red (Contenedor principal) -->
+        <div class="red">
+            <div class="description">
+                <h2 type="text"> Soy ANDE Dev, y estoy encantado de que estés aquí. En este sitio, encontrarás un poco sobre mí, mi trabajo y las cosas que me apasionan. Soy programador y diseñador web. </h2>
+            </div>
+            <div class="icons">
+                <button class="icon-btn"><i class="fab fa-facebook"></i></button>
+                <button class="icon-btn"><i class="fab fa-instagram"></i></button>
+                <button class="icon-btn"><i class="fab fa-tiktok"></i></button>
+                <button class="icon-btn"><i class="fa-brands fa-github"></i></button>
+                <button class="icon-btn"><i class="fa-brands fa-codepen"></i></button>
+            </div>
+        </div>
+
+        <!-- Div para continuar -->
+        <div class="continue">
+            <button class="arrow-btn">↓</button>
+        </div>
+</body>
+</html>
